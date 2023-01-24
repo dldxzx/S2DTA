@@ -17,12 +17,12 @@
  # Traing and testing
  
  **In this module you have to provide .pdb file for protein and pocket, .sdf or .mol file for compund.**
-if you want to training the model with your data
+If you want to training the model with your data, you should running 
 `python create_data.py`
-`python training.py`
-only use our model to evaluat your own data
+`python training.py`.
+If you only use our model to evaluat your own data, you need to run 
 `python create_data.py`
-`python run_pretrained_model.py`
+`python run_pretrained_model.py`.
  
  # Contact
  Xin Zeng: hbzengxin@163.com
